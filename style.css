@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #F4F6F6;
+    color: #333333;
+}
+
+header {
+    background-color: #145A32;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #218838;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #F1C40F;
+    color: #145A32;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.apresentacao div {
+    flex: 1;
+}
+
+.apresentacao img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+#destaques {
+    margin: 30px;
+}
+
+#destaques h2 {
+    color: #145A32;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #218838;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #145A32;
+}
+
+.card a {
+    color: #218838;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #C0392B;
+}
+
+#programacao {
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#programacao h2 {
+    color: #145A32;
+    text-align: center;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.informacoes div {
+    background-color: #D5F5E3;
+    border: 2px solid #218838;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #145A32;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #218838;
+    padding: 12px;
+    text-align: center;
+}
+
+#contato {
+    background-color: #E8F8F5;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#contato h2 {
+    color: #145A32;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #145A32;
+    color: white;
+    padding: 20px;
+}
+
+.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: #C0392B;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.voltar-topo:hover {
+    background-color: #F1C40F;
+    color: #145A32;
+}
